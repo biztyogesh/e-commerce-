@@ -29,7 +29,36 @@ function ProductDisplay(props) {
 
           <p>(122)</p>
         </div>
+        <div className="productdisplay-right-prices">
+          <div className="productdisplay-right-price-old">
+            {" "}
+            ${Product.old_prices}
+          </div>
+          <div className="productdisplay-right-price-new">
+            ${Product.new_prices}
+          </div>
+        </div>
+        <div className="productdisplay-right-description">
+          A lightweight ,usually knitted ,pullover shirt ,close-fitting and
+        </div>
+        <div className="productdisplay-right-size">
+          <h1>Select Size</h1>
+          <div className="productdisplay-right-size"></div>
+          <div>S</div>
+          <div>M</div>
+          <div>L</div>
+          <div>XL</div>
+          <div>XXL</div>
+        </div>
       </div>
+      <button>ADD TO CART</button>
+      <p className="productdisplay-right-category">
+        <span>Category: </span>Women , TShirt crop Top
+      </p>
+
+      <p className="productdisplay-right-category">
+        <span>Tags: </span>Modern, Latest
+      </p>
     </div>
   );
 }
