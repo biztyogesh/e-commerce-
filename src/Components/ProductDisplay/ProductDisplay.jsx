@@ -3,8 +3,7 @@ import "./ProductDisplay.css";
 import star_icon from "../Assets/star_icon.png";
 import star_dull_icon from "../Assets/star_dull_icon.png";
 import Product from "../../Pages/Product";
-
-function ProductDisplay(props) {
+const  ProductDisplay(props) {
   return (
     <div className="productdisplay">
       <div className="productdisplay-left">
